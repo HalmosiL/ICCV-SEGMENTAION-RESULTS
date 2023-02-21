@@ -1,0 +1,8 @@
+sat alma-prox-linf 500 step 50 image ---   1
+ddcat alma-prox-linf 500 step 50 image  -- 2
+normal alma-prox-linf 500 step 50 image  -- 4
+
+sat attack.dag attack.gamma=0.003 50 image --- 3
+normal attack.dag attack.gamma=0.003 50 image --- 5
+ddcat attack.dag attack.gamma=0.003 50 image --- 6
+

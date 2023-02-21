@@ -1,0 +1,22 @@
+{
+  "attack": {
+    "gamma": 0.003,
+    "max_iter": 500,
+    "name": "dag"
+  },
+  "cpu": false,
+  "cudnn_flag": "benchmark",
+  "dataset": {
+    "name": "cityscapes",
+    "num_images": 50,
+    "root": "data/cityscapes",
+    "size": [
+      1024,
+      2048
+    ],
+    "split": "val"
+  },
+  "save_adv": false,
+  "seed": 865464599,
+  "target": 0
+}
