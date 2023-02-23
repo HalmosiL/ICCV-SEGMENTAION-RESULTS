@@ -1,0 +1,10 @@
+ddcat alma prox linf -- 1
+sat alma prox linf ---- 2
+normal alma prox linf - 5
+
+sat dag 0.003 --------- 3
+ddcat dag 0.003 ------- 4
+normal dag 0.003 ------ 6
+
+sat dag 0.001 --------- 7
+sat ddcat 0.001 ------- 8

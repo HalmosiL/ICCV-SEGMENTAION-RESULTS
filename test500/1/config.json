@@ -1,0 +1,29 @@
+{
+  "attack": {
+    "alpha": 0.8,
+    "init_lr_distance": 16,
+    "lr_reduction": 0.1,
+    "name": "alma_prox",
+    "norm": Infinity,
+    "num_steps": 500,
+    "rho_init": 0.01,
+    "scale_init": null,
+    "scale_max": 1,
+    "scale_min": 0.05
+  },
+  "cpu": false,
+  "cudnn_flag": "benchmark",
+  "dataset": {
+    "name": "cityscapes",
+    "num_images": 500,
+    "root": "data/cityscapes",
+    "size": [
+      1024,
+      2048
+    ],
+    "split": "val"
+  },
+  "save_adv": false,
+  "seed": 216744978,
+  "target": 0
+}

@@ -1,0 +1,222 @@
+{
+  "artifacts": [],
+  "command": "main",
+  "experiment": {
+    "base_dir": "/ALMA-PROX-DDCAT-test-/alma_prox_segmentation",
+    "dependencies": [
+      "adv-lib==0.1.2",
+      "numpy==1.23.5",
+      "Pillow==9.3.0",
+      "sacred==0.8.2",
+      "torch==1.11.0",
+      "torchvision==0.12.0"
+    ],
+    "mainfile": "attack_experiment.py",
+    "name": "segmentation_attack",
+    "repositories": [
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      },
+      {
+        "commit": "537df6a54d0a18dccd7075d8b8e5e8ee93099343",
+        "dirty": true,
+        "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
+      }
+    ],
+    "sources": [
+      [
+        "attack_experiment.py",
+        "_sources/attack_experiment_d52e2f7d86db61b9bf0313945f6de9ff.py"
+      ],
+      [
+        "attack_ingredient.py",
+        "_sources/attack_ingredient_6854f8c0a919f671481b00f4f3396c2d.py"
+      ],
+      [
+        "attack_utils.py",
+        "_sources/attack_utils_b5dc7743a923a3a51e8617f093287e9b.py"
+      ],
+      [
+        "attacks/__init__.py",
+        "_sources/__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "attacks/alma_cls.py",
+        "_sources/alma_cls_cafc549254a960939d003cd9ddc8efdc.py"
+      ],
+      [
+        "attacks/ddn.py",
+        "_sources/ddn_554ff3ed471a5531ee1f9cec110bfd0a.py"
+      ],
+      [
+        "attacks/fast_gradient.py",
+        "_sources/fast_gradient_891fcdac8f43c8cbad5b099d0deddb06.py"
+      ],
+      [
+        "attacks/fmn.py",
+        "_sources/fmn_6201441ae3ad12c2c36291f27ea40b4c.py"
+      ],
+      [
+        "attacks/pgd.py",
+        "_sources/pgd_8b919e497fd06a4dd67aad1772759796.py"
+      ],
+      [
+        "dataset.py",
+        "_sources/dataset_0da52ca34a05ba181ff64bea7aaa5b1b.py"
+      ],
+      [
+        "dataset_ingredient.py",
+        "_sources/dataset_ingredient_326e021716ec4971c5070e996f2f45b6.py"
+      ],
+      [
+        "model_ingredient.py",
+        "_sources/model_ingredient_09cedbe9588b38ff76e3ebcd6bfc5c46.py"
+      ],
+      [
+        "transforms.py",
+        "_sources/transforms_5694d134408a837ecd03c67c07a271b4.py"
+      ],
+      [
+        "utils.py",
+        "_sources/utils_fe93a0c4d2870b35502b3b641bf9b6a8.py"
+      ]
+    ]
+  },
+  "heartbeat": "2023-02-23T13:27:18.122899",
+  "host": {
+    "ENV": {},
+    "cpu": "AMD EPYC 7452 32-Core Processor",
+    "gpus": {
+      "driver_version": "470.141.03",
+      "gpus": [
+        {
+          "model": "NVIDIA RTX A6000",
+          "persistence_mode": false,
+          "total_memory": 48685
+        },
+        {
+          "model": "NVIDIA RTX A6000",
+          "persistence_mode": false,
+          "total_memory": 48685
+        },
+        {
+          "model": "NVIDIA RTX A6000",
+          "persistence_mode": false,
+          "total_memory": 48685
+        },
+        {
+          "model": "NVIDIA RTX A6000",
+          "persistence_mode": false,
+          "total_memory": 48685
+        }
+      ]
+    },
+    "hostname": "8455e34b7ff2",
+    "os": [
+      "Linux",
+      "Linux-6.0.8-1-default-x86_64-with-glibc2.31"
+    ],
+    "python_version": "3.9.16"
+  },
+  "meta": {
+    "command": "main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": "../../test/test500",
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "dataset.cityscapes",
+        "cudnn_flag=benchmark",
+        "attack.dag",
+        "attack.gamma=0.001",
+        "target=0",
+        "dataset.num_images=500"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2023-02-23T10:46:15.235769",
+  "status": "RUNNING"
+}
