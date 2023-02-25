@@ -144,7 +144,7 @@
       ]
     ]
   },
-  "heartbeat": "2023-02-23T13:27:17.890550",
+  "heartbeat": "2023-02-23T23:22:57.738274",
   "host": {
     "ENV": {},
     "cpu": "AMD EPYC 7452 32-Core Processor",
@@ -217,5 +217,6 @@
   "resources": [],
   "result": null,
   "start_time": "2023-02-22T18:21:26.401752",
-  "status": "RUNNING"
+  "status": "COMPLETED",
+  "stop_time": "2023-02-23T23:22:57.735259"
 }

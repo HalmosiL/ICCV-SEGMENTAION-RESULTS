@@ -15,72 +15,72 @@
     "name": "segmentation_attack",
     "repositories": [
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       },
       {
-        "commit": "fee613b2273106ebfe1da3ca82ddeb95c1a87b95",
+        "commit": "7b2705ff2ecf2e709ce025220fb10e4b7b988642",
         "dirty": true,
         "url": "https://github.com/HalmosiL/ALMA-PROX-DDCAT-test-.git"
       }
@@ -88,7 +88,7 @@
     "sources": [
       [
         "attack_experiment.py",
-        "_sources/attack_experiment_473d23e2ab2083d9c580738b4bd9a4bd.py"
+        "_sources/attack_experiment_31bd535495401abb663a7de86adaa2d1.py"
       ],
       [
         "attack_ingredient.py",
@@ -132,7 +132,7 @@
       ],
       [
         "model_ingredient.py",
-        "_sources/model_ingredient_09cedbe9588b38ff76e3ebcd6bfc5c46.py"
+        "_sources/model_ingredient_43751c812e36ed8517f2532e1f8e1f77.py"
       ],
       [
         "transforms.py",
@@ -144,7 +144,7 @@
       ]
     ]
   },
-  "heartbeat": "2023-02-24T02:57:08.724423",
+  "heartbeat": "2023-02-25T14:43:03.460073",
   "host": {
     "ENV": {},
     "cpu": "AMD EPYC 7452 32-Core Processor",
@@ -206,8 +206,7 @@
       "UPDATE": [
         "dataset.cityscapes",
         "cudnn_flag=benchmark",
-        "attack.dag",
-        "attack.gamma=0.001",
+        "attack.pdpgd",
         "target=0",
         "dataset.num_images=500"
       ],
@@ -217,7 +216,6 @@
   },
   "resources": [],
   "result": null,
-  "start_time": "2023-02-23T10:40:50.568363",
-  "status": "COMPLETED",
-  "stop_time": "2023-02-24T02:57:08.721125"
+  "start_time": "2023-02-24T10:55:07.179490",
+  "status": "RUNNING"
 }
