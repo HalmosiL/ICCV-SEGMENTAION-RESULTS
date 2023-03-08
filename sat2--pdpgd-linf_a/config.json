@@ -1,0 +1,24 @@
+{
+  "attack": {
+    "dual_ratio_init": 1,
+    "name": "pdpgd",
+    "norm": Infinity,
+    "primal_lr": 0.01,
+    "steps": 500
+  },
+  "cpu": false,
+  "cudnn_flag": "benchmark",
+  "dataset": {
+    "name": "cityscapes",
+    "num_images": 250,
+    "root": "data/cityscapes",
+    "size": [
+      1024,
+      2048
+    ],
+    "split": "val"
+  },
+  "save_adv": false,
+  "seed": 693183030,
+  "target": 0
+}
